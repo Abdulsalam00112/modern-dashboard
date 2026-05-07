@@ -42,3 +42,20 @@
     background:#27374d;
     color: #dde6ed!important;
 }
+
+@media screen and (max-width: 768px) {
+    .menu {
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .menuList {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}

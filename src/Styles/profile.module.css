@@ -45,6 +45,8 @@
 
 .userDetail img {
   color: #526d82;
+  max-width: 100%;
+  height: auto;
 }
 
 .userDetail .userName {
