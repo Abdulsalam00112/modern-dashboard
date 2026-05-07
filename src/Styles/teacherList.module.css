@@ -1,0 +1,50 @@
+.listHeader {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+.listHeader h2 {
+  color: #526d82;
+}
+
+.listHeader select {
+  border-radius: 10px;
+  border: none;
+  padding: 8px 12px;
+  border: 1px solid #dde6ed;
+  color: #526d82;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+}
+
+.teacherDetail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #526d82;
+}
+
+.teacherDetail img{
+    width: 50px;
+    background: #dde6ed;
+    border-radius: 50%;
+
+}
+
+.list:hover{
+    background: #dde6ed;
+    border-radius: 10px;
+}
