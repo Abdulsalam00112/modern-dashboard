@@ -35,7 +35,8 @@ const TeacherList = () => {
         <h2>Teachers</h2>
         <select name="" id="">
           <option value="English">English</option>
-          <option value="Hindi">Hindi</option>
+          <option value="French">French</option>
+          <option value="Yoruba">Yoruba</option>
         </select>
       </div>
       <div className={styles.listContainer}>
